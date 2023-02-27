@@ -1,0 +1,113 @@
+.addDrive{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 85px;
+    background-color: #fff;
+    margin-bottom: 50px;
+    width: 83%;
+}
+
+.addDrive-formdata{
+    width: 95%;
+    
+}
+
+.addDrive-image{
+    margin-left: 70px;
+}
+
+.addDrive-border{
+    /* width: 150px;
+    height: 250px;
+    margin-top: 130px; */
+    width: 5%;
+    background-color: rgb(0, 7, 61);
+}
+
+.addDrive-header{
+    color: brown;
+    font-family: math;
+}
+
+.addDrive-header h2,h6{
+    display: flex;
+    margin-left: 85px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.addDrive-header h2{
+    font-size: 35px;
+    margin-bottom: 1px;
+}
+
+.addDrive-header h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: Arial;
+}
+
+.addDrive-header hr{
+    width: 450px;
+    margin-bottom: 2px;
+    border: 2px solid rgb(7, 7, 7);
+}
+
+.addDrive-form{
+    margin-top: 25px ;
+    margin-left: 50px;
+    width: 95%;
+}
+
+.addDrive-table{
+    border: none;
+}
+
+.addDrive tr{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: none;
+}
+
+.addDrive td{
+    background-color: #fff;
+    border: none;
+}
+
+.addDrive label{
+    color: black;
+    margin-right: 2px;
+}
+
+.addDrive input{
+    border: 1px solid rgb(7, 7, 7);
+    font-size: 16px;
+    padding:3px 8px;
+    border-radius: 0.5px;
+    margin-left: 0px;
+}
+
+.addDrive input:focus {
+    color: rgb(0, 0, 0);
+}
+
+.addDrive select{
+    width: 99%;
+    margin: 0px;
+    border: 1px solid rgb(7, 7, 7) !important;
+    border-radius: 0.5px;
+    height: 30px;
+    font-size: initial;
+}
+
+.addDrive button{
+    width: 70%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 15px;
+    padding: 4  px 7px;
+    color: #fff;
+    font-size: 23px;
+    background-color: #2a84e9;
+    border-color: #156dd0;
+}

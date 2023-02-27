@@ -1,0 +1,58 @@
+.register-page{
+    background-color: lightgrey;
+    display: flex;
+}
+
+.register-header h1{
+    margin: 5px;
+    width: max-content;
+    padding: 25px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #798694;
+    font-size: 70px;
+    background-color: rgba(127, 127, 127, 0.507);
+}
+
+form p{
+    font-weight: 300;
+    margin: 0px 35px;
+    display: flex;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #798694;
+    margin-left: 100px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.register-form{
+    width: 750px;
+}
+
+.form-header{
+    display: flex;
+    width: 75%;
+    padding: 5px;
+    font-size: 45px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #798694;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.form-group input,select{
+    padding: 5px;
+    width: 60%;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 5px;
+    border: 0ch;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.881);
+}
+
+.register-error{
+    font-size: 17px;
+    color: blue;
+    padding-right: 20px;
+}

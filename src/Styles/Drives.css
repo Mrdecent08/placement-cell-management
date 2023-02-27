@@ -1,0 +1,66 @@
+.update-drive{
+    display: inline-block;
+    width: 100%;       /* set to 100% */
+    height: 100%;      /* set to 100% */
+    margin-bottom: 0.5em;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    color: #fff;
+    border-radius: 5px;
+    border: solid #cccccc 1px;
+    clear:right;
+}
+
+.drive-header{
+    display: flex;
+    margin-left: 200px;
+}
+
+.drive-header button{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0px 7px;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 23px;
+    background-color: #4f99ed;
+    border-color: #156dd0;
+}
+
+.drive-header button:hover{
+    background-color: #2a84e9;
+}
+
+.update-link{
+    margin: 10px;
+    padding: 50px 0px;
+}
+
+button{
+    /* background-color: #7fffd4; */
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+img{
+    margin-left: 5px;
+    opacity: 0.75 !important;
+}
+
+#trash:hover {
+    content: url('../images/icons8-close-26.png');
+}
+
+#add:hover{
+    content: url('../images/icons8-upload-to-cloud.gif');
+}   
+
+#edit:hover {
+    /* background-color: #7fffd4; */
+    background-color: white;
+    content: url('../images/icons8-edit.gif');
+}

@@ -1,0 +1,46 @@
+.home-page{
+    height: 100vh;
+    /* background-color: rgba(127, 255, 212, 0.258); */
+    background-color: white;
+    display: flex;
+}
+
+.nav-bar{
+    width: 17%;
+    background-color: rgb(10, 10, 10);
+}
+
+.home{
+    width: 83%;
+    /* background-color: rgba(127, 255, 212, 0.258); */
+    background-color: white;
+}
+
+.clg-name{
+    /* color: brown; */
+    color: #798694;
+    font-family: inherit;
+    font-size: 45px;
+    margin-bottom: 50px;
+
+}
+
+.tnp-cell{
+    border: 3px solid blue;
+    background-color: rgba(0, 0, 0, 0.548);
+    margin: 0px 300px;
+    padding-bottom: 50px;
+}
+
+.tnp{
+    font-size: 20px;
+    color: white;
+    font-family: cursive, monospace, sans-serif;
+}
+
+iframe{
+    border: 1px;
+    border-style: double;
+    border-color: rgb(186, 121, 121);
+    margin-top: 5px;
+}
