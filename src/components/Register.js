@@ -128,7 +128,7 @@ export const Register = () => {
           </div>
           <div className='form-group'>
             <Form.Label htmlFor="cpassword">Confirm Password : </Form.Label><br/>
-            <Form.Control  value={registerDetails.cpassword} type='password' name='cpassword' id='cpassword' onChange={handleChange} placeholder='Enter your Password'></Form.Control><br />
+            <Form.Control  value={registerDetails.cpassword} type='password' name='cpassword' id='cpassword' onChange={handleChange} placeholder='Enter your Password ( Confirm )'></Form.Control><br />
             {errors.cpassword && <Form.Text className='register-error'>{errors.cpassword}</Form.Text>}
 
           </div>

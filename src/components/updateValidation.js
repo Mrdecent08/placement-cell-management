@@ -23,13 +23,13 @@ export const updateValidation = (props) => {
     if(!props.password){
         errors.password = "*This field is required!"
     }
-    if(!props.cpassword){
-        errors.cpassword = "*This field is required!"
-    }
+    // if(!props.cpassword){
+    //     errors.cpassword = "*This field is required!"
+    // }
 
-    else if(props.password !== props.cpassword){
-        errors.cpassword = "*Passwords doesn't match!"
-    }
+    // else if(props.password !== props.cpassword){
+    //     errors.cpassword = "*Passwords doesn't match!"
+    // }
     
     if(!props.course){
         errors.course = "*This field is required!"
