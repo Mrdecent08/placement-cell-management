@@ -66,14 +66,23 @@ function App() {
       const data = XLSX.utils.sheet_to_json(worksheet);
       setExcelData(data);
       const total = data.length;
-      const cse_filter = data.filter((item) => item.branch == "cse").length;
-      const csm_filter = data.filter((item) => item.branch == "csm").length;
-      const csd_filter = data.filter((item) => item.branch == "csd").length;
-      const ece_filter = data.filter((item) => item.branch == "ece").length;
-      const mech_filter = data.filter((item) => item.branch == "mech").length;
-      const che_filter = data.filter((item) => item.branch == "che").length;
-      const civil_filter = data.filter((item) => item.branch == "civil").length;
-      const it_filter = data.filter((item) => item.branch == "it").length;
+      // console.log(data.filter((item) => item.rollNo.substring(6,8) == "05").length);
+      // const cse_filter = data.filter((item) => item.branch == "cse").length;
+      // const csm_filter = data.filter((item) => item.branch == "csm").length;
+      // const csd_filter = data.filter((item) => item.branch == "csd").length;
+      // const ece_filter = data.filter((item) => item.branch == "ece").length;
+      // const mech_filter = data.filter((item) => item.branch == "mech").length;
+      // const che_filter = data.filter((item) => item.branch == "che").length;
+      // const civil_filter = data.filter((item) => item.branch == "civil").length;
+      // const it_filter = data.filter((item) => item.branch == "it").length;
+      const cse_filter = data.filter((item) => item.rollNo.substring(6,8) === "05").length;
+      const csm_filter = data.filter((item) => item.rollNo.substring(6,8) === "42").length;
+      const csd_filter = data.filter((item) => item.rollNo.substring(6,8) === "44").length;
+      const ece_filter = data.filter((item) => item.rollNo.substring(6,8) === "04").length;
+      const mech_filter = data.filter((item) => item.rollNo.substring(6,8) === "03").length;
+      const che_filter = data.filter((item) => item.rollNo.substring(6,8) === "08").length;
+      const civil_filter = data.filter((item) => item.rollNo.substring(6,8) === "01").length;
+      const it_filter = data.filter((item) => item.rollNo.substring(6,8) === "12").length;
       setStatData({...statData,total:total,cse:cse_filter,csm:csm_filter,csd:csd_filter,ece:ece_filter,mech:mech_filter,che:che_filter,civil:civil_filter,it:it_filter});
       
       }
